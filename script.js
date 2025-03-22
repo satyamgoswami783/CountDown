@@ -36,6 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
         setInterval(() => updateCountDown(targetDate), 1000);
     };
 
-    const targetDate = new Date("March 24, 2025 07:00:00");
+    const targetDate = new Date("March 24, 2026 07:00:00");
     countDown(targetDate);
 });
